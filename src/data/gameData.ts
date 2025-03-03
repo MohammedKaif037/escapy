@@ -96,7 +96,7 @@ export const initialRooms: Record<string, Room> = {
       }
     ],
     nextRoomId: 'horror-room',
-    isLocked: true
+    isLocked: false
   },
   'horror-room': {
     id: 'horror-room',
@@ -123,7 +123,7 @@ export const initialRooms: Record<string, Room> = {
       }
     ],
     nextRoomId: undefined, // This is the final room
-    isLocked: true
+    isLocked: false
   }
 };
 
